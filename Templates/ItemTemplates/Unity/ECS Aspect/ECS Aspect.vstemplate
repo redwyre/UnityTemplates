@@ -1,0 +1,14 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>ECS Aspect</Name>
+    <Description>Templates for Unity</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+    <LanguageTag>csharp</LanguageTag>
+    <DefaultName>Aspect.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$Aspect.cs" ReplaceParameters="true">Aspect.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
