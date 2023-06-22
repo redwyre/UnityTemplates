@@ -1,0 +1,16 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>ECS Component with Authoring and ISystem</Name>
+    <Description>Templates for Unity</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+    <LanguageTag>csharp</LanguageTag>
+    <DefaultName>My</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$System.cs" ReplaceParameters="true">System.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ComponentData.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$Authoring.cs" ReplaceParameters="true">Authoring.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
