@@ -3,3 +3,25 @@
 ################################################################################
 
 /.vs
+
+# build directories
+
+/Aspect/bin/
+/Aspect/obj/
+/Authoring Component/bin/
+/Authoring Component/obj/
+/IBufferElementData/bin/
+/IBufferElementData/obj/
+/IComponentData/bin/
+/IComponentData/obj/
+/ISystem/bin/
+/ISystem/obj/
+/MonoBehaviour/bin/
+/MonoBehaviour/obj/
+/SystemBase/bin/
+/SystemBase/obj/
+/UnityDotsTemplates/bin/
+/UnityDotsTemplates/obj/
+
+# user files
+*.csproj.user
