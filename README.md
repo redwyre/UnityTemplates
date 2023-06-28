@@ -1,4 +1,21 @@
-# UnityDotsTemplates
-To use these templates, copy the contents of the `Templates` folder into `%USERPROFILE%\Documents\Visual Studio 2022\Templates\`.
+# UnityTemplates
 
-Note that authoring, aspect, and system templates will use the new item name as the name of the component, and create systems and authoring components based off that name.
+If you just want the templates without the extension, check the https://github.com/redwyre/UnityTemplates/tree/just_templates branch
+
+To download the extension search for "redwyre.UnityDotsTemplates" in visual studio or download from https://marketplace.visualstudio.com/items?itemName=redwyre.UnityDotsTemplates.
+
+This extension gives you a number of template for Unity development:
+
+General:
+* MonoBehaviour
+
+DOTS/ECS
+* Aspect
+* Authoring Component
+* IBufferElementData
+* IComponentData
+* ISystem
+* SystemBase
+
+
+
