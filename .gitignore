@@ -1,5 +1,29 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /.vs
+
+# build directories
+
+/Aspect/bin/
+/Aspect/obj/
+/Authoring Component/bin/
+/Authoring Component/obj/
+/IBufferElementData/bin/
+/IBufferElementData/obj/
+/IComponentData/bin/
+/IComponentData/obj/
+/ISystem/bin/
+/ISystem/obj/
+/MonoBehaviour/bin/
+/MonoBehaviour/obj/
+/ScriptableObject/bin/
+/ScriptableObject/obj/
+/SystemBase/bin/
+/SystemBase/obj/
+/UnityTemplates/bin/
+/UnityTemplates/obj/
+
+# user files
+*.csproj.user
