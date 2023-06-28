@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -22,8 +22,8 @@
 /ScriptableObject/obj/
 /SystemBase/bin/
 /SystemBase/obj/
-/UnityDotsTemplates/bin/
-/UnityDotsTemplates/obj/
+/UnityTemplates/bin/
+/UnityTemplates/obj/
 
 # user files
 *.csproj.user
