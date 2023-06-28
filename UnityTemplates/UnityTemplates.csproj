@@ -13,8 +13,8 @@
     <ProjectGuid>{0A75D2FB-1F32-4019-9B6C-2019375A62CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnityDotsTemplates</RootNamespace>
-    <AssemblyName>UnityDotsTemplates</AssemblyName>
+    <RootNamespace>UnityTemplates</RootNamespace>
+    <AssemblyName>UnityTemplates</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>

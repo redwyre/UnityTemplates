@@ -7,7 +7,7 @@
 
 General:
 * MonoBehaviour
-&amp;
+* ScriptableObject
 
 DOTS/ECS
 * Aspect
