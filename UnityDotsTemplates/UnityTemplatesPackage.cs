@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace UnityDotsTemplates
+namespace UnityTemplates
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -24,11 +24,11 @@ namespace UnityDotsTemplates
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(UnityDotsTemplatesPackage.PackageGuidString)]
-    public sealed class UnityDotsTemplatesPackage : AsyncPackage
+    [Guid(UnityTemplatesPackage.PackageGuidString)]
+    public sealed class UnityTemplatesPackage : AsyncPackage
     {
         /// <summary>
-        /// UnityDotsTemplatesPackage GUID string.
+        /// UnityTemplatesPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "87c71456-76bc-48bf-825d-edd2e4ea697c";
 

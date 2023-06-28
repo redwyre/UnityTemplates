@@ -46,7 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnityDotsTemplatesPackage.cs" />
+    <Compile Include="UnityTemplatesPackage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="source.extension.vsixmanifest">
@@ -99,6 +99,13 @@
     <ProjectReference Include="..\MonoBehaviour\MonoBehaviour.csproj">
       <Project>{85EE7056-FE77-4CDF-9352-4449E53AEEB0}</Project>
       <Name>MonoBehaviour</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\ScriptableObject\ScriptableObject.csproj">
+      <Project>{0898B6B0-D1FE-4EB1-B27E-74672BA72D73}</Project>
+      <Name>ScriptableObject</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
