@@ -17,7 +17,7 @@ jobs:
     - name: Add msbuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
     - name: Nuget restore
-      run: nuget restore
+      run: msbuild /t:restore
     - name: Build
       run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal
     - name: Deploy artifact
