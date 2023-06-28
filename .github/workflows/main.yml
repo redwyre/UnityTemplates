@@ -1,0 +1,28 @@
+name: Build UnityTemplates extension
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+    - name: Add nuget to PATH
+      uses: nuget/setup-nuget@v1
+    - name: Add msbuild to PATH
+      uses: microsoft/setup-msbuild@v1.0.2
+    - name: Nuget restore
+      run: nuget restore
+    - name: Build
+      run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal
+    - name: Deploy artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: UnityTemplates.vsix
+        path: UnityTemplates\bin\Release\UnityTemplates.vsix
+      
