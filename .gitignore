@@ -10,6 +10,10 @@
 /Aspect/obj/
 /Authoring Component/bin/
 /Authoring Component/obj/
+/CodeRefactorings/bin/
+/CodeRefactorings/obj/
+/CodeRefactorings.Test/bin/
+/CodeRefactorings.Test/obj/
 /IBufferElementData/bin/
 /IBufferElementData/obj/
 /IComponentData/bin/

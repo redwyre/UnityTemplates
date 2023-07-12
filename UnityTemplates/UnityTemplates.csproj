@@ -75,6 +75,12 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\CodeRefactorings\CodeRefactorings.csproj">
+      <Project>{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}</Project>
+      <Name>CodeRefactorings</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
+    </ProjectReference>
     <ProjectReference Include="..\IBufferElementData\IBufferElementData.csproj">
       <Project>{41EF97CB-37F4-4967-92DF-22AC795ACD9C}</Project>
       <Name>IBufferElementData</Name>

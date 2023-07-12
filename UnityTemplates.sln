@@ -30,6 +30,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspect", "Aspect\Aspect.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptableObject", "ScriptableObject\ScriptableObject.csproj", "{0898B6B0-D1FE-4EB1-B27E-74672BA72D73}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeRefactorings", "CodeRefactorings\CodeRefactorings.csproj", "{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeRefactorings.Test", "CodeRefactorings.Test\CodeRefactorings.Test.csproj", "{C01777F0-E1BE-48A7-9FFD-6A7BA775C83A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +76,14 @@ Global
 		{0898B6B0-D1FE-4EB1-B27E-74672BA72D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0898B6B0-D1FE-4EB1-B27E-74672BA72D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0898B6B0-D1FE-4EB1-B27E-74672BA72D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FFAAE8A-02B4-4461-9D7E-8250BC3AB31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01777F0-E1BE-48A7-9FFD-6A7BA775C83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01777F0-E1BE-48A7-9FFD-6A7BA775C83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01777F0-E1BE-48A7-9FFD-6A7BA775C83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01777F0-E1BE-48A7-9FFD-6A7BA775C83A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
