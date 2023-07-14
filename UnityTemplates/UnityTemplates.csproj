@@ -82,9 +82,37 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\ICleanupComponentData\ICleanupComponentData.csproj">
+      <Project>{E51CCAB5-D1FB-4A84-B6F7-DD2334D64776}</Project>
+      <Name>ICleanupComponentData</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\IComponentData %28managed%29\IComponentData %28managed%29.csproj">
+      <Project>{FD63143E-BB38-434E-98BA-2F522C4C4B65}</Project>
+      <Name>IComponentData %28managed%29</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\IComponentData\IComponentData.csproj">
       <Project>{D8E45E89-779C-4D15-9879-69BE83E347DE}</Project>
       <Name>IComponentData</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\IEnableableComponent\IEnableableComponent.csproj">
+      <Project>{31DF0D2B-1393-4001-8CAE-C087019499BE}</Project>
+      <Name>IEnableableComponent</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\ISharedComponentData\ISharedComponentData.csproj">
+      <Project>{45C94866-AF23-49CF-995C-BAD0D410515A}</Project>
+      <Name>ISharedComponentData</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

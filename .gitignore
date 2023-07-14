@@ -12,8 +12,16 @@
 /Authoring Component/obj/
 /IBufferElementData/bin/
 /IBufferElementData/obj/
+/ICleanupComponentData/bin/
+/ICleanupComponentData/obj/
+/IComponentData (managed)/bin/
+/IComponentData (managed)/obj/
 /IComponentData/bin/
 /IComponentData/obj/
+/IEnableableComponent/bin/
+/IEnableableComponent/obj/
+/ISharedComponentData/bin/
+/ISharedComponentData/obj/
 /ISystem/bin/
 /ISystem/obj/
 /MonoBehaviour/bin/
