@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="UnityTemplates.1e6858ef-1489-4ca5-8dea-889be244bda2" Version="1.1" Language="en-US" Publisher="redwyre" />
+        <Identity Id="UnityTemplates.1e6858ef-1489-4ca5-8dea-889be244bda2" Version="1.2" Language="en-US" Publisher="redwyre" />
         <DisplayName>UnityTemplates</DisplayName>
-        <Description xml:space="preserve">This extension gives you a number of template for Unity development:
-
-General:
-* MonoBehaviour
-* ScriptableObject
-
-DOTS/ECS
-* Aspect
-* Authoring Component
-* IBufferElementData
-* IComponentData
-* ISystem
-* SystemBase
-</Description>
+        <Description xml:space="preserve">This extension gives you a number of template for Unity development, including template for DOTS files.</Description>
         <MoreInfo>https://github.com/redwyre/UnityTemplates</MoreInfo>
-        <Tags>unity, dots, ecs</Tags>
+        <Tags>unity, dots, ecs, template, templates</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
@@ -44,5 +31,9 @@ DOTS/ECS
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MonoBehaviour" d:TargetPath="|MonoBehaviour;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="SystemBase" d:TargetPath="|SystemBase;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ScriptableObject" d:TargetPath="|ScriptableObject;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="IComponentData (managed)" d:TargetPath="|IComponentData (managed);TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ICleanupComponentData" d:TargetPath="|ICleanupComponentData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="IEnableableComponent" d:TargetPath="|IEnableableComponent;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ISharedComponentData" d:TargetPath="|ISharedComponentData;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     </Assets>
 </PackageManifest>
