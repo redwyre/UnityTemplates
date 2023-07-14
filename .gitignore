@@ -27,3 +27,4 @@
 
 # user files
 *.csproj.user
+/Icons/output
