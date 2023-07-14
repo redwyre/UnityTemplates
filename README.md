@@ -8,14 +8,15 @@ This extension gives you a number of template for Unity development:
 
 General:
 * MonoBehaviour
+* ScriptableObject
 
 DOTS/ECS
 * Aspect
 * Authoring Component
 * IBufferElementData
-* IComponentData
+* ICleanupComponentData
+* IComponentData (unmanaged and managed)
+* IEnableableComponent
+* ISharedComponentData
 * ISystem
 * SystemBase
-
-
-
