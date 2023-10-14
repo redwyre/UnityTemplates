@@ -68,9 +68,30 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\AssemblyDefinition\AssemblyDefinition.csproj">
+      <Project>{8CEE4210-FAF9-4937-BA03-E811819E6CF9}</Project>
+      <Name>AssemblyDefinition</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\AssemblyReference\AssemblyReference.csproj">
+      <Project>{0E94658A-B5FB-440D-8D9A-9C9884D0C55B}</Project>
+      <Name>AssemblyReference</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Authoring Component\Authoring Component.csproj">
       <Project>{3F843A47-949F-40F6-8FE6-A8FF382851F9}</Project>
       <Name>Authoring Component</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\Class\Class.csproj">
+      <Project>{4766A8A2-46F3-41C3-87DC-D7C028955C26}</Project>
+      <Name>Class</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

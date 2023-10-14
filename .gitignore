@@ -8,8 +8,14 @@
 
 /Aspect/bin/
 /Aspect/obj/
+/AssemblyDefinition/obj/
+/AssemblyDefinition/bin/
+/AssemblyReference/obj/
+/AssemblyReference/bin/
 /Authoring Component/bin/
 /Authoring Component/obj/
+/Class/obj/
+/Class/bin/
 /IBufferElementData/bin/
 /IBufferElementData/obj/
 /ICleanupComponentData/bin/
