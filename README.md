@@ -9,6 +9,9 @@ This extension gives you a number of template for Unity development:
 General:
 * MonoBehaviour
 * ScriptableObject
+* Class (C# class with Unity relevant usings)
+* Assembly Definition
+* Assembly Definition Reference
 
 DOTS/ECS
 * Aspect
