@@ -131,6 +131,27 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\IJobFor\IJobFor.csproj">
+      <Project>{5E5DE1E9-7387-4DC5-BDE0-21E2DC0B0F71}</Project>
+      <Name>IJobFor</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\IJobParallelFor\IJobParallelFor.csproj">
+      <Project>{9DC57F52-DF7A-4798-BC88-1DDBE10BA633}</Project>
+      <Name>IJobParallelFor</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\IJob\IJob.csproj">
+      <Project>{1A0EDB6B-3C90-4FCD-936E-2D9B56D713A8}</Project>
+      <Name>IJob</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\ISharedComponentData\ISharedComponentData.csproj">
       <Project>{45C94866-AF23-49CF-995C-BAD0D410515A}</Project>
       <Name>ISharedComponentData</Name>

@@ -26,6 +26,12 @@
 /IComponentData/obj/
 /IEnableableComponent/bin/
 /IEnableableComponent/obj/
+/IJob/bin/
+/IJob/obj/
+/IJobFor/bin/
+/IJobFor/obj/
+/IJobParallelFor/bin/
+/IJobParallelFor/obj/
 /ISharedComponentData/bin/
 /ISharedComponentData/obj/
 /ISystem/bin/
