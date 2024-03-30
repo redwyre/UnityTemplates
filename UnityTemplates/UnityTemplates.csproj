@@ -180,6 +180,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\StateMachineBehaviour\StateMachineBehaviour.csproj">
+      <Project>{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}</Project>
+      <Name>StateMachineBehaviour</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\SystemBase\SystemBase.csproj">
       <Project>{B3374644-EAA4-4980-B6FA-5B2212370058}</Project>
       <Name>SystemBase</Name>

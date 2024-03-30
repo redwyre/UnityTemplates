@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJobFor", "IJobFor\IJobFor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IJobParallelFor", "IJobParallelFor\IJobParallelFor.csproj", "{9DC57F52-DF7A-4798-BC88-1DDBE10BA633}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineBehaviour", "StateMachineBehaviour\StateMachineBehaviour.csproj", "{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -288,6 +290,18 @@ Global
 		{9DC57F52-DF7A-4798-BC88-1DDBE10BA633}.Release|arm64.Build.0 = Release|arm64
 		{9DC57F52-DF7A-4798-BC88-1DDBE10BA633}.Release|x86.ActiveCfg = Release|x86
 		{9DC57F52-DF7A-4798-BC88-1DDBE10BA633}.Release|x86.Build.0 = Release|x86
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|arm64.ActiveCfg = Debug|arm64
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|arm64.Build.0 = Debug|arm64
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|x86.ActiveCfg = Debug|x86
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Debug|x86.Build.0 = Debug|x86
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|arm64.ActiveCfg = Release|arm64
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|arm64.Build.0 = Release|arm64
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|x86.ActiveCfg = Release|x86
+		{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
