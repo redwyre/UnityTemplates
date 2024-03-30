@@ -26,6 +26,12 @@
 /IComponentData/obj/
 /IEnableableComponent/bin/
 /IEnableableComponent/obj/
+/IJob/bin/
+/IJob/obj/
+/IJobFor/bin/
+/IJobFor/obj/
+/IJobParallelFor/bin/
+/IJobParallelFor/obj/
 /ISharedComponentData/bin/
 /ISharedComponentData/obj/
 /ISystem/bin/
@@ -34,6 +40,8 @@
 /MonoBehaviour/obj/
 /ScriptableObject/bin/
 /ScriptableObject/obj/
+/StateMachineBehaviour/bin/
+/StateMachineBehaviour/obj/
 /SystemBase/bin/
 /SystemBase/obj/
 /UnityTemplates/bin/

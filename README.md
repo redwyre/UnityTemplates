@@ -9,6 +9,7 @@ This extension gives you a number of template for Unity development:
 General:
 * MonoBehaviour
 * ScriptableObject
+* StateMachineBehaviour
 * Class (C# class with Unity relevant usings)
 * Assembly Definition
 * Assembly Definition Reference
@@ -20,6 +21,9 @@ DOTS/ECS
 * ICleanupComponentData
 * IComponentData (unmanaged and managed)
 * IEnableableComponent
+* IJob
+* IJobFor
+* IJobParallelFor
 * ISharedComponentData
 * ISystem
 * SystemBase
