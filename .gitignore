@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
+.vs
 
 # build directories
 
@@ -50,3 +50,5 @@
 # user files
 *.csproj.user
 /Icons/output
+/IJobEntity/bin/Release/ItemTemplates/CSharp/1033
+/IJobEntity/obj/Release
