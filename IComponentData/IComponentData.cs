@@ -1,10 +1,9 @@
-using System;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Core;
 using Unity.Entities;
-using Unity.Transforms;
-using UnityEngine;
+using Unity.Jobs;
+using Unity.Mathematics;
 
 public struct $fileinputname$ : IComponentData
 {
