@@ -194,6 +194,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\Struct\Struct.csproj">
+      <Project>{024D8790-6F5D-4C05-94A2-4A84605B726A}</Project>
+      <Name>Struct</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\SystemBase\SystemBase.csproj">
       <Project>{B3374644-EAA4-4980-B6FA-5B2212370058}</Project>
       <Name>SystemBase</Name>

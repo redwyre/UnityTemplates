@@ -6,48 +6,8 @@
 
 # build directories
 
-/Aspect/bin/
-/Aspect/obj/
-/AssemblyDefinition/obj/
-/AssemblyDefinition/bin/
-/AssemblyReference/obj/
-/AssemblyReference/bin/
-/Authoring Component/bin/
-/Authoring Component/obj/
-/Class/obj/
-/Class/bin/
-/IBufferElementData/bin/
-/IBufferElementData/obj/
-/ICleanupComponentData/bin/
-/ICleanupComponentData/obj/
-/IComponentData (managed)/bin/
-/IComponentData (managed)/obj/
-/IComponentData/bin/
-/IComponentData/obj/
-/IEnableableComponent/bin/
-/IEnableableComponent/obj/
-/IJob/bin/
-/IJob/obj/
-/IJobEntity/bin/
-/IJobEntity/obj/
-/IJobFor/bin/
-/IJobFor/obj/
-/IJobParallelFor/bin/
-/IJobParallelFor/obj/
-/ISharedComponentData/bin/
-/ISharedComponentData/obj/
-/ISystem/bin/
-/ISystem/obj/
-/MonoBehaviour/bin/
-/MonoBehaviour/obj/
-/ScriptableObject/bin/
-/ScriptableObject/obj/
-/StateMachineBehaviour/bin/
-/StateMachineBehaviour/obj/
-/SystemBase/bin/
-/SystemBase/obj/
-/UnityTemplates/bin/
-/UnityTemplates/obj/
+/**/obj/
+/**/bin/
 
 # user files
 *.csproj.user
