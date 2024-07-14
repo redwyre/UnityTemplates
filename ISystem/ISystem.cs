@@ -6,7 +6,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 
 [BurstCompile]
-public partial struct $fileinputname$System : ISystem
+public partial struct $fileinputname$ : ISystem
 {
     public void OnCreate(ref SystemState state)
     {
@@ -22,6 +22,7 @@ public partial struct $fileinputname$System : ISystem
         var job = new MyJob
         {
         };
+
         job.ScheduleParallel();
     }
 }

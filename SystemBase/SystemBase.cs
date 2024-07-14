@@ -26,7 +26,7 @@ public partial class $fileinputname$ : SystemBase
 
     protected override void OnUpdate()
     {
-        foreach (var (myComponent, entity) in in SystemAPI.Query<RefRW<MyComponent>>().WithEntityAccess())
+        foreach (var (myComponent, entity) in SystemAPI.Query<RefRW<MyComponent>>().WithEntityAccess())
         {
 
         }

@@ -4,6 +4,7 @@ using Unity.Core;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
+using Unity.Transforms;
 
 [BurstCompile]
 public partial struct $safeitemrootname$ : IJobEntity
