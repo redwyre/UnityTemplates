@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>Class (Unity usings)</Name>
-    <Description>A ordinary class but with default usings relevant to Unity, and no namespace.</Description>
-    <Icon>Class.ico</Icon>
-    <TemplateID>3fc00f1b-42e0-4550-a103-09e954ee04cf</TemplateID>
+    <Name>IJobEntity</Name>
+    <Description>IJobEntity</Description>
+    <Icon>IJobEntity.ico</Icon>
+    <TemplateID>9044fe9c-cfc5-4e97-a92e-c30365405212</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>Class.cs</DefaultName>
+    <DefaultName>JobEntity.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
@@ -16,6 +16,6 @@
         <Assembly>System</Assembly>
       </Reference>
     </References>
-    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">IJobEntity.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

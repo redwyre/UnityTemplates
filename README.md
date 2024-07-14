@@ -7,10 +7,10 @@ To download the extension search for "redwyre.UnityTemplates" in visual studio o
 This extension gives you a number of template for Unity development:
 
 General:
+* Class (C# class with Unity relevant usings)
 * MonoBehaviour
 * ScriptableObject
 * StateMachineBehaviour
-* Class (C# class with Unity relevant usings)
 * Assembly Definition
 * Assembly Definition Reference
 
@@ -22,8 +22,10 @@ DOTS/ECS
 * IComponentData (unmanaged and managed)
 * IEnableableComponent
 * IJob
+* IJobEntity
 * IJobFor
 * IJobParallelFor
 * ISharedComponentData
 * ISystem
+* Struct (C# struct with Unity DOTS relevant usings)
 * SystemBase

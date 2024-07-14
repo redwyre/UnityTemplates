@@ -131,6 +131,13 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
+    <ProjectReference Include="..\IJobEntity\IJobEntity.csproj">
+      <Project>{187BA513-00B6-452C-9FC3-9A9C3E387A09}</Project>
+      <Name>IJobEntity</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\IJobFor\IJobFor.csproj">
       <Project>{5E5DE1E9-7387-4DC5-BDE0-21E2DC0B0F71}</Project>
       <Name>IJobFor</Name>
@@ -183,6 +190,13 @@
     <ProjectReference Include="..\StateMachineBehaviour\StateMachineBehaviour.csproj">
       <Project>{8AFA4201-6111-45A3-A4B3-A72F0F91BE75}</Project>
       <Name>StateMachineBehaviour</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\Struct\Struct.csproj">
+      <Project>{024D8790-6F5D-4C05-94A2-4A84605B726A}</Project>
+      <Name>Struct</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

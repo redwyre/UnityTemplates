@@ -5,7 +5,6 @@ using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 
-public struct $fileinputname$ : ICleanupComponentData
+public struct $safeitemrootname$
 {
-    public int Value;
 }

@@ -1,17 +1,16 @@
-using System;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Core;
 using Unity.Entities;
-using Unity.Transforms;
-using UnityEngine;
+using Unity.Jobs;
+using Unity.Mathematics;
 
 [BurstCompile]
-public partial struct $fileinputname$System : ISystem
+public partial struct $fileinputname$ : ISystem
 {
     public void OnCreate(ref SystemState state)
     {
-        state.RequireForUpdate<$fileinputname$>();
+        state.RequireForUpdate<MyComponent>();
     }
 
     public void OnDestroy(ref SystemState state)
@@ -20,23 +19,10 @@ public partial struct $fileinputname$System : ISystem
 
     public void OnUpdate(ref SystemState state)
     {
-        var job = new $fileinputname$Job
+        var job = new MyJob
         {
         };
-        job.ScheduleParallel();
-    }
 
-    [BurstCompile]
-    public partial struct $fileinputname$Job : IJobEntity
-    {
-        void Execute(
-            Entity entity,
-            [ChunkIndexInQuery] int chunkIndexInQuery,
-            [EntityIndexInChunk] int entityIndexInChunk,
-            [EntityIndexInQuery] int entityIndexInQuery,
-            in LocalTransform localTransform,
-            ref $fileinputname$ my$fileinputname$)
-        {
-        }
+        job.ScheduleParallel();
     }
 }

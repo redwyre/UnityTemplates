@@ -1,16 +1,15 @@
-using System;
 using Unity.Burst;
 using Unity.Collections;
 using Unity.Core;
 using Unity.Entities;
-using Unity.Transforms;
-using UnityEngine;
+using Unity.Jobs;
+using Unity.Mathematics;
 
-public partial class $fileinputname$System : SystemBase
+public partial class $fileinputname$ : SystemBase
 {
     protected override void OnCreate()
     {
-        RequireForUpdate<$fileinputname$>();
+        RequireForUpdate<MyComponent>();
     }
 
     protected override void OnStartRunning()
@@ -27,5 +26,15 @@ public partial class $fileinputname$System : SystemBase
 
     protected override void OnUpdate()
     {
+        foreach (var (myComponent, entity) in SystemAPI.Query<RefRW<MyComponent>>().WithEntityAccess())
+        {
+
+        }
+
+        var job = new MyJob
+        {
+        };
+
+        job.ScheduleParallel();
     }
 }

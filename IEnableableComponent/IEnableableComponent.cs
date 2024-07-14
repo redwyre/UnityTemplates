@@ -6,7 +6,7 @@ using Unity.Entities;
 using Unity.Transforms;
 using UnityEngine;
 
-public struct $fileinputname$ : IEnableableComponent
+public struct $fileinputname$ : IComponentData, IEnableableComponent
 {
     public int Value;
 }
