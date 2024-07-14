@@ -27,4 +27,5 @@ DOTS/ECS
 * IJobParallelFor
 * ISharedComponentData
 * ISystem
+* Struct (C# struct with Unity DOTS relevant usings)
 * SystemBase

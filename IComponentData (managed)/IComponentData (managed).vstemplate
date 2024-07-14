@@ -8,7 +8,7 @@
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>IComponentData.cs</DefaultName>
+    <DefaultName>ComponentData.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>

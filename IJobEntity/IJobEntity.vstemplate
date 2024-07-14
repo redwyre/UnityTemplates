@@ -8,7 +8,7 @@
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
-    <DefaultName>IJobEntity.cs</DefaultName>
+    <DefaultName>JobEntity.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
     <References>
