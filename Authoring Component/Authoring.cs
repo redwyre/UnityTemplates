@@ -10,15 +10,15 @@ public class $fileinputname$ : MonoBehaviour
 {
     public int Value;
 
-    public class Baker : Baker<$fileinputname$>
+public class Baker : Baker<$fileinputname$>
+{
+    public override void Bake($fileinputname$ authoring)
     {
-        public override void Bake($fileinputname$ authoring)
+        var entity = GetEntity(TransformUsageFlags.Dynamic);
+        AddComponent(entity, new MyComponent
         {
-            var entity = GetEntity(TransformUsageFlags.Dynamic);
-            AddComponent(entity, new MyComponent
-            {
-                Value = authoring.Value
-            });
-        }
+            Value = authoring.Value
+        });
     }
+}
 }
