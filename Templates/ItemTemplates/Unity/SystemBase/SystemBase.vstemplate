@@ -1,4 +1,4 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <Name>SystemBase</Name>
     <Description>Templates for Unity</Description>
@@ -11,4 +11,8 @@
   <TemplateContent>
     <ProjectItem SubType="Code" TargetFileName="$fileinputname$System.cs" ReplaceParameters="true">SystemBase.cs</ProjectItem>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>UnityTemplates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c82b8dfbacc26ec3</Assembly>
+    <FullClassName>UnityTemplates.TemplateOptionsWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

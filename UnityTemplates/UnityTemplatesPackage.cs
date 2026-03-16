@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Shell;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -24,6 +24,8 @@ namespace UnityTemplates
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
+    [ProvideOptionPage(typeof(GeneralOptionsPage), "Unity Templates", "General", 0, 0, true)]
+    [ProvideProfile(typeof(GeneralOptionsPage), "Unity Templates", "General", 0, 0, true)]
     [Guid(UnityTemplatesPackage.PackageGuidString)]
     public sealed class UnityTemplatesPackage : AsyncPackage
     {

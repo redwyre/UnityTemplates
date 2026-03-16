@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>ISystem</Name>
@@ -18,4 +18,8 @@
     </References>
     <ProjectItem ReplaceParameters="true">ISystem.cs</ProjectItem>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>UnityTemplates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c82b8dfbacc26ec3</Assembly>
+    <FullClassName>UnityTemplates.TemplateOptionsWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>

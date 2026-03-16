@@ -18,4 +18,8 @@
     </References>
     <ProjectItem ReplaceParameters="true">Authoring.cs</ProjectItem>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>UnityTemplates, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c82b8dfbacc26ec3</Assembly>
+    <FullClassName>UnityTemplates.TemplateOptionsWizard</FullClassName>
+  </WizardExtension>
 </VSTemplate>
